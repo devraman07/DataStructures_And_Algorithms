@@ -107,7 +107,8 @@ public class advarrays {
 
         return maxProfit;
     }
-
+    
+    //check deplicates
     public static boolean checkDuplicates(int arr[]) {
         int n = arr.length;
             for(int i = 0; i < n - 1; i++) {
